@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Mixer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rgbMixer.js"></script>
+    <script src="rgbChecker.js"></script>
+</head>
+
+<body>
+    <h1>RGB Colors Mixer</h1>
+    <form id="colorMixer">
+        <label for="input1">Color 1:</label>
+        <input type="text" id="color1" name="color1" placeholder="0,100,255">
+        <br>
+        <label for="input2">Color 2:</label>
+        <input type="text" id="color2" name="color2" placeholder="0,100,255">
+        <br>
+        <label for="input3">Color 3:</label>
+        <input type="text" id="color3" name="color3" placeholder="0,100,255">
+        <br>
+        <button type="submit" onclick="mixColors()">Mix Colors</button>
+    </form>
+    <div id="resultMixer" class="result"></div>
+
+    <h1>RGB Colors Checker</h1>
+    <form id="colorChecker">
+        <label for="input4">Color 1:</label>
+        <input type="text" id="color4" name="color4" placeholder="0,100,255">
+        <br>
+        <label for="input5">Color 2:</label>
+        <input type="text" id="color5" name="color5" placeholder="0,100,255">
+        <br>
+        <button type="submit" onclick="verifyMix()">Verify Mix</button>
+    </form>
+    <div id="resultChecker" class="result"></div>
+</body>
+
+</html>
