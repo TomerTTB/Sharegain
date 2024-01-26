@@ -1,5 +1,5 @@
 'use strict'
-// New Shit to test GIT
+
 let color4, color5;
 let missingColorR = 0, missingColorG = 0, missingColorB = 0;
 
