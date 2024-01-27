@@ -13,14 +13,16 @@
 <body>
     <h1>RGB Colors Mixer</h1>
     <form id="colorMixer">
+        <span class="textArea">Enter 2 or 3 colors in the RGB format, range from 0 - 250</span>
+        <br><br>
         <label for="input1">Color 1:</label>
-        <input type="text" id="color1" name="color1" placeholder="0,100,255">
+        <input type="text" id="color1" name="color1" value="0,100,255" placeholder="0,100,255">
         <br>
         <label for="input2">Color 2:</label>
-        <input type="text" id="color2" name="color2" placeholder="0,100,255">
+        <input type="text" id="color2" name="color2" value="0,100,255" placeholder="0,100,255">
         <br>
         <label for="input3">Color 3:</label>
-        <input type="text" id="color3" name="color3" placeholder="0,100,255">
+        <input type="text" id="color3" name="color3" value="0,100,255" placeholder="0,100,255">
         <br>
         <button type="submit" onclick="mixColors()">Mix Colors</button>
     </form>
@@ -28,10 +30,13 @@
 
     <h1>RGB Colors Checker</h1>
     <form id="colorChecker">
-        <label for="input4">Color 1:</label>
+        <span class="textArea">The test asserts the calculation by determining one of the original colors using the
+            remaining colors and the mixed color</span>
+        <br><br>
+        <label for="input4">Original Color:</label>
         <input type="text" id="color4" name="color4" placeholder="0,100,255">
         <br>
-        <label for="input5">Color 2:</label>
+        <label for="input5">Original Color:</label>
         <input type="text" id="color5" name="color5" placeholder="0,100,255">
         <br>
         <button type="submit" onclick="verifyMix()">Verify Mix</button>
