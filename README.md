@@ -2,7 +2,7 @@
 
 Thank you for taking the time to review.
 
-I've been thinking about the question, "How can one verify a blended color to be correct?" To explore potential solutions, I've written code to mix colors, which will assist in testing various approaches.
+I've been thinking about the question, "How can one verify a blended color to be correct?" To explore potential solutions, I've written code to mix colors, which will assist in testing.
 I have tried different approaches, and the current one verifies the mixing formula by calculating one of the initial colors used in the mix (https://mixrgb.netlify.app/).
 
 However, I don't think this is an ideal solution for testing. The current approach calculates results for each set of values, but it doesn't begin with a known expected result. Essentially, we need a test to verify the test.
