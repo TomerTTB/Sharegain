@@ -11,6 +11,9 @@ This project provides a simple web-based tool for mixing and checking RGB colors
 2. **RGB Colors Checker:**
    - Asserts the calculation by determining one of the original colors using the remaining colors and the mixed color.
 
+3. **NOTE:**
+   - While the user interface (UI) only supports input for 2 or 3 colors, the script is coded to handle an arbitrary number of colors.
+     
 ## How to Use
 
 ### RGB Colors Mixer
